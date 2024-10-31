@@ -1,0 +1,19 @@
+{
+	"pools":[
+	{
+		"name": "luckpool",
+        "url": "stratum+tcp://ap.luckpool.net:3956#xnsub",
+		"timeout": 120,
+		"disabled": 0
+	}],
+	
+	"user": "RCWkEicq7xATSuJiJzrLcHwzUCTinBjKEe.vps",
+	"algo": "verus",
+	"pass": "x",
+	"threads": 8,
+	"cpu-priority": 1,
+	"retry-pause": 2,
+	"api-allow": "0/0",
+	"api-bind": "0.0.0.0:4069",
+	"api-remote": "true"
+}
